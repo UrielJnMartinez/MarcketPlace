@@ -1,0 +1,14 @@
+# --
+run.sh
+.env
+
+# adminbase/media/
+# adminbase/static/CACHE/css/
+# adminbase/static/CACHE/js/
+
+# vscode
+.vscode/
+
+# docker files
+
+docker-compose.yml

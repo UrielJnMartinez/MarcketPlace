@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "marcketplace"
+version = "0.1.0"
+description = "marcketplace para artesanias"
+authors = ["Uriel JnMartinez <uri31jn.martinez@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^3.1.4"
+djangorestframework = "3.11.0"
+python-decouple = "^3.3"
+django-cors-headers = "^3.6.0"
+channels-redis = "^3.2.0"
+psycopg2 = "^2.8.6"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.8.4"
+mypy = "^0.790"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
